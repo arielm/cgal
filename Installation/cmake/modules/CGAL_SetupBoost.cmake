@@ -19,7 +19,7 @@ if ( NOT CGAL_Boost_Setup )
   endif()
 
   if (CGAL_requires_Boost_libs)
-    find_package( Boost 1.48 REQUIRED thread system )
+    find_package( Boost 1.48 REQUIRED system )
   else()
     find_package( Boost 1.48 REQUIRED )
   endif()
